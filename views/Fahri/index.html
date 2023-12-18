@@ -4,83 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fukaru</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .card {
-            border: 2px solid gray;
-            border-radius: 8px;
-            overflow: hidden;
-            width: 400px;
-            height: 500px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-left: 10px;
-        }
-
-        .card-header {
-            background-color: red;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .card-body {
-            padding: 20px;
-        }
-
-        .profile-info {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            font-size: 30px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        p {
-            margin: 0;
-            font-size: 20px;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-
-<div class="card">
-    <div class="card-header">
-        <h2>Profil Fukaru</h2>
-    </div>
-    <div class="card-body">
-        <div class="profile-info">
-            <label>Nama:</label>
-            <p>Fukaru</p>
-        </div>
-        <div class="profile-info">
-            <label>Kelas:</label>
-            <p>IF-2</p>
-        </div>
-        <div class="profile-info">
-            <label>NIM:</label>
-            <p>10122048</p>
-        </div>
-        <div class="profile-info">
-            <label>Email:</label>
-            <p>fukaruuu69@gmail.com</p>
-        </div>
-        <div class="profile-info">
-            <label>Cita-cita:</label>
-            <p>Ingin Bahagia</p>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="py-4 px-4 max-w-xl w-full mx-auto bg-white rounded-2xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+            <img class="block mx-auto h-60 sm:mx-0 sm:shrink-0 rounded-xl" src="/src/images/Fahri/11143406_721927547941280_2478909230343888945_n.jpg" alt="fukaru"/>
+            <div class="text-center space-y-2 sm:text-left">
+                <div class="space-y-2">
+                    <p class="text-blue-600	font-medium">KOSATAN</p>
+                    <p class="text-2xl text-black font-semibold">Fahri Arsyah</p>
+                    <p class="text-xl text-gray-400 text-black font-semibold">Kami adalah orang orang aneh tapi serba ada</p>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>
